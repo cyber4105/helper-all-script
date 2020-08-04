@@ -1,1 +1,1 @@
-# helper-all-script
+kumupulan script yang sering lupa 
