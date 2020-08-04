@@ -1,1 +1,13 @@
-script-mysql
+== RESET AUTO INCREMENT ==
+ALTER TABLE table_name AUTO_INCREMENT = value;
+
+== ADD FIELD ==
+ALTER TABLE table_name ADD COLUMN field_name type_data(length) BEFORE|AFTER field_existing
+
+== DROP COLUMN ==
+ALTER TABLE table_name DROP COLUMN column_name;
+
+== ADD PRIMARY KEY ==
+ALTER TABLE table_name ADD PRIMARY KEY (ID); 
+
+
